@@ -1,0 +1,273 @@
+<html lang="id" class="scroll-smooth">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Steamboat | Korean Food Restaurant</title>
+
+     <!-- META TAG -->
+
+     <link rel="stylesheet" href="./dist/tailwindcss/style.css">
+     <link rel="shortcut icon" href="" type="image/x-icon">
+</head>
+
+<body class="w-full h-screen bg-gray-800 overflow-x-hidden load">
+
+     <load-content></load-content>
+
+     <header
+          class="w-full h-max fixed top-0 left-0 px-5 py-4 md:py-0 bg-gray-800 shadow-xl flex items-center justify-between z-50">
+          <div>
+               <h1 class="text-xl text-white font-['Playfair_Display'] uppercase font-semibold">Steamboat</h1>
+          </div>
+
+          <nav class="w-5/6 h-screen md:w-max md:h-auto fixed top-14 -right-full bg-gray-800 p-10 shadow-2xl md:relative md:top-0 md:right-0 md:bg-none md:p-0 md:shadow-none transition-all ease-in-out duration-300"
+               id="nav-bar">
+               <ul>
+                    <li class="md:inline-block md:mx-3 lg:mx-5">
+                         <a href="#"
+                              class="w-full flex items-center gap-3 md:gap-2 my-7 text-lg capitalize text-gray-300 hover:text-sky-500">
+                              <ion-icon class="text-2xl" name="home-outline"></ion-icon> <span>home</span>
+                         </a>
+                    </li>
+                    <li class="md:inline-block md:mx-3 lg:mx-5">
+                         <a href="./dist/pages/menu/"
+                              class="w-full flex items-center gap-3 md:gap-2 my-7 text-lg capitalize text-gray-300 hover:text-sky-500">
+                              <ion-icon class="text-2xl" name="fast-food-outline"></ion-icon>
+                              <span>menu</span>
+                         </a>
+                    </li>
+                    <li class="md:inline-block md:mx-3 lg:mx-5">
+                         <a href="./dist/pages/about/"
+                              class="w-full flex items-center gap-3 md:gap-2 my-7 text-lg capitalize text-gray-300 hover:text-sky-500">
+                              <ion-icon class="text-2xl" name="alert-circle-outline"></ion-icon>
+                              <span>about</span>
+                         </a>
+                    </li>
+                    <li class="md:inline-block md:mx-3 lg:mx-5">
+                         <a href="./dist/pages/find-us/"
+                              class="w-full flex items-center gap-3 md:gap-2 my-7 text-lg capitalize text-gray-300 hover:text-sky-500">
+                              <ion-icon class="text-2xl" name="pin-outline"></ion-icon>
+                              <span>find</span>
+                         </a>
+                    </li>
+                    <li class="md:inline-block md:mx-3 lg:mx-5">
+                         <a href="./dist/pages/gallery/"
+                              class="w-full flex items-center gap-3 md:gap-2 my-7 text-lg capitalize text-gray-300 hover:text-sky-500">
+                              <ion-icon class="text-2xl" name="images-outline"></ion-icon>
+                              <span>gallery</span>
+                         </a>
+                    </li>
+               </ul>
+          </nav>
+
+          <button id="nav-btn" class="md:hidden">
+               <ion-icon name="menu-outline" class="text-white text-3xl"></ion-icon>
+          </button>
+     </header>
+
+     <main class="z-30">
+          <div class="w-full h-full hero-main relative">
+               <div class="w-full h-full bg-gray-800/60 absolute flex flex-col items-center justify-center text-white">
+                    <h5 class="text-lg sm:text-xl lg:text-2xl font-['Open_Sans'] text-gray-200">Welcome to</h5>
+                    <h1 class="text-5xl sm:text-7xl mb-4 uppercase font-['Playfair_Display'] font-semibold">Steamboat
+                    </h1>
+                    <p class="font-['Montserrat'] capitalize sm:text-lg lg:text-xl">korean food restaurant</p>
+
+                    <a href="#menu"
+                         class="block py-3 px-7 bg-gray-400 hover:bg-gray-600 mt-14 rounded font-medium">Explore
+                         Menu</a>
+               </div>
+          </div>
+          <div class="container p-5 mx-auto">
+               <h1 class="mt-5 mb-3 text-white text-3xl capitalize">about us</h1>
+
+               <div class="flex flex-col md:flex-row items-center lg:items-start justify-center gap-5">
+                    <div class="md:basis-2/4">
+                         <p class="text-lg text-white/70">
+                              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio animi soluta aliquam.
+                              Dicta voluptate sint laudantium in cumque distinctio nostrum dolorum nulla quas? Deserunt
+                              ullam incidunt, eos culpa mollitia aliquid! Consequuntur dolore modi qui, doloribus
+                              molestias officiis eligendi velit minima!
+                         </p>
+                    </div>
+                    <div class="md:basis-2/4">
+                         <div class="w-full h-60 lg:h-80 rounded-2xl overflow-hidden">
+                              <img src="./src/images/resto.jpg" alt="about-us" class="w-full h-full object-cover">
+                         </div>
+                    </div>
+               </div>
+          </div>
+
+          <div class="container p-5 mx-auto" id="menu">
+               <h1 class="mt-5 mb-1 text-white text-3xl capitalize">special menu</h1>
+               <p class="text-white/70 text-base capitalize">explore our special menu korean food</p>
+
+               <div
+                    class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 2xl:grid-cols-7 gap-5 mt-8">
+                    <div class="bg-white rounded-xl overflow-hidden text-center">
+                         <img src="./src/images/image (1).jpg" alt="food-menu"
+                              class="w-full h-32 object-cover rounded rounded-b-none">
+
+                         <h6 class="p-3 capitalize text-sm font-semibold font-['Montserrat']">Kimchi Lokal</h6>
+                    </div>
+                    <div class="bg-white rounded-xl overflow-hidden text-center">
+                         <img src="./src/images/image (2).jpg" alt="food-menu"
+                              class="w-full h-32 object-cover rounded rounded-b-none">
+
+                         <h6 class="p-3 capitalize text-sm font-semibold font-['Montserrat']">Pastry</h6>
+                    </div>
+                    <div class="bg-white rounded-xl overflow-hidden text-center">
+                         <img src="./src/images/image (3).jpg" alt="food-menu"
+                              class="w-full h-32 object-cover rounded rounded-b-none">
+
+                         <h6 class="p-3 capitalize text-sm font-semibold font-['Montserrat']">Sushi salmon</h6>
+                    </div>
+                    <div class="bg-white rounded-xl overflow-hidden text-center">
+                         <img src="./src/images/image (4).jpg" alt="food-menu"
+                              class="w-full h-32 object-cover rounded rounded-b-none">
+
+                         <h6 class="p-3 capitalize text-sm font-semibold font-['Montserrat']">egg bread</h6>
+                    </div>
+                    <div class="bg-white rounded-xl overflow-hidden text-center">
+                         <img src="./src/images/image (5).jpg" alt="food-menu"
+                              class="w-full h-32 object-cover rounded rounded-b-none">
+
+                         <h6 class="p-3 capitalize text-sm font-semibold font-['Montserrat']">topokki</h6>
+                    </div>
+                    <div class="bg-white rounded-xl overflow-hidden text-center">
+                         <img src="./src/images/image (6).jpg" alt="food-menu"
+                              class="w-full h-32 object-cover rounded rounded-b-none">
+
+                         <h6 class="p-3 capitalize text-sm font-semibold font-['Montserrat']">korean salad</h6>
+                    </div>
+               </div>
+
+               <a href="./dist/pages/menu/" class="block w-full p-2 mt-7 rounded text-center text-white/70">Explore
+                    All Menu</a>
+          </div>
+
+          <div class="container p-5 mx-auto">
+               <h1 class="mt-5 mb-1 text-white text-3xl capitalize">meet our chef's</h1>
+               <p class="text-white/70 text-base capitalize">professional and experienced</p>
+
+               <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 mt-8">
+                    <div>
+                         <div class="">
+                              <img src="./src/images/chef (1).jpg" alt="our-chef"
+                                   class="w-full h-96 object-cover rounded-lg">
+                         </div>
+                         <div class="w-full text-center p-3">
+                              <h3 class="text-lg text-white font-medium uppercase font-['Open_Sans']">Timothy Cronin
+                              </h3>
+                              <p class="text-white/80 capitalize">ketua juru masak</p>
+                         </div>
+                    </div>
+                    <div>
+                         <div class="">
+                              <img src="./src/images/chef (2).jpg" alt="our-chef"
+                                   class="w-full h-96 object-cover rounded-lg">
+                         </div>
+                         <div class="w-full text-center p-3">
+                              <h3 class="text-lg text-white font-medium uppercase font-['Open_Sans']">Cerly Cintia
+                              </h3>
+                              <p class="text-white/80 capitalize">asisten juru masak</p>
+                         </div>
+                    </div>
+                    <div>
+                         <div class="">
+                              <img src="./src/images/chef (3).jpg" alt="our-chef"
+                                   class="w-full h-96 object-cover rounded-lg">
+                         </div>
+                         <div class="w-full text-center p-3">
+                              <h3 class="text-lg text-white font-medium uppercase font-['Open_Sans']">ahmad fauzan
+                              </h3>
+                              <p class="text-white/80 capitalize">kepala juru masak</p>
+                         </div>
+                    </div>
+                    <div>
+                         <div class="">
+                              <img src="./src/images/chef (4).jpg" alt="our-chef"
+                                   class="w-full h-96 object-cover rounded-lg">
+                         </div>
+                         <div class="w-full text-center p-3">
+                              <h3 class="text-lg text-white font-medium uppercase font-['Open_Sans']">thomas alfa
+                              </h3>
+                              <p class="text-white/80 capitalize">barista</p>
+                         </div>
+                    </div>
+               </div>
+          </div>
+
+          <div class="container p-5 mx-auto">
+               <h1 class="mt-5 mb-1 text-white text-3xl capitalize">find our restaurant</h1>
+               <p class="text-white/70 text-base capitalize">we are present in all the place</p>
+
+               <div class="bg-gray-400 w-full h-72 sm:h-80 md:h-96 mt-5 rounded overflow-hidden">
+                    <iframe
+                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.0543845904203!2d106.76253421429334!3d-6.25656629547133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f160ed53b449%3A0xa6e0caf4df7053c3!2sWarung%20Jajan%20PR%20-%20Official%20Store!5e0!3m2!1sid!2sid!4v1640935194767!5m2!1sid!2sid"
+                         style="border:0;" allowfullscreen="true" loading="lazy" class="w-full h-full"></iframe>
+               </div>
+          </div>
+     </main>
+
+     <footer class="w-full h-auto bg-gray-700 mt-5 md:mt-10">
+          <div class="container mx:auto w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 p-5 md:p-10">
+               <div>
+                    <h3 class="text-xl text-white capitalize font-medium mb-2">about us</h3>
+                    <p class="text-white/70">
+                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet
+                         consectetur, adipisicing elit
+                    </p>
+               </div>
+               <div>
+                    <h3 class="text-xl text-white capitalize font-medium mb-2">navigations</h3>
+                    <ul class="list-inside list-disc text-white/70">
+                         <li><a href="#" class="capitalize">home</a></li>
+                         <li><a href="./dist/pages/about/" class="capitalize">about</a></li>
+                         <li><a href="./dist/pages/menu/" class="capitalize">menu</a></li>
+                         <li><a href="./dist/pages/find-us/" class="capitalize">find restaurant</a></li>
+                         <li><a href="./dist/pages/gallery/" class="capitalize">gallery</a></li>
+                    </ul>
+               </div>
+               <div>
+                    <h3 class="text-xl text-white capitalize font-medium mb-2">contact us</h3>
+                    <ul>
+                         <li class="my-2">
+                              <a href="#" class="text-white/70 flex items-center gap-3">
+                                   <ion-icon name="call-outline"></ion-icon>
+                                   <span>+62-82487943672</span>
+                              </a>
+                         </li>
+                         <li class="my-2">
+                              <a href="#" class="text-white/70 flex items-center gap-3">
+                                   <ion-icon name="mail-outline"></ion-icon>
+                                   <span>loremipsum@gmail.com</span>
+                              </a>
+                         </li>
+                         <li class="my-2">
+                              <a href="#" class="text-white/70 flex items-center gap-3">
+                                   <ion-icon name="pin-outline"></ion-icon>
+                                   <span>jl. belok kiri no. 80, jakarta</span>
+                              </a>
+                         </li>
+                    </ul>
+               </div>
+          </div>
+
+          <div class="bg-gray-500 p-3 text-center">
+               <h4 class="text-white/60">made with <span class="text-red-600 animate-pulse text-sm">❤️</span> by
+                    Ariefianto
+                    Rizky</h4>
+          </div>
+     </footer>
+
+
+     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+     <script src="main.js" type="module"></script>
+</body>
+
+</html>

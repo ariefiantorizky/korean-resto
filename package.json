@@ -1,0 +1,16 @@
+{
+  "name": "steambot-korean",
+  "version": "0.0.85",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/css/style.css -o ./dist/tailwindcss/style.css --watch",
+    "minify": "tailwindcss -i ./src/css/style.css -o ./dist/tailwindcss/style.css --minify"
+  },
+  "author": "ariefianto rizky - ariefiantorizky2907@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "cssnano": "^5.0.14",
+    "tailwindcss": "^3.0.8"
+  }
+}

@@ -1,0 +1,133 @@
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>STEAMBOAT | Products</title>
+
+     <link rel="stylesheet" href="../../../tailwindcss/style.css">
+     <link rel="shortcut icon" href="" type="image/x-icon">
+</head>
+
+<body class="w-full h-screen bg-gray-800 overflow-x-hidden load">
+     <load-content></load-content>
+
+     <header
+          class="w-full flex flex-nowrap items-center justify-start gap-4 p-3 lg:p-7 fixed top-0 left-0 bg-gray-800 shadow-xl ">
+          <a href="../../../../index.html">
+               <ion-icon name="home" class="text-base text-gray-300"></ion-icon>
+          </a>
+
+          <span>
+               <ion-icon name="chevron-forward-outline" class="text-gray-400"></ion-icon>
+          </span>
+
+          <a href="../index.html" class="text-base capitalize text-gray-300">Menu</a>
+
+          <span>
+               <ion-icon name="chevron-forward-outline" class="text-gray-400"></ion-icon>
+          </span>
+
+          <a href="#" class="text-base capitalize font-medium text-white">Example products</a>
+     </header>
+
+     <main class="my-12 container p-3 mx-auto">
+          <div class="w-full h-auto grid grid-cols-1 lg:grid-cols-2 lg:mt-20 gap-5">
+               <div class="w-full h-60 sm:h-72 md:h-96 lg:h-full rounded-md overflow-hidden">
+                    <img src="../../../../src/images/image (1).jpg" class="w-full h-full object-cover">
+               </div>
+
+               <div class="my-5 lg:my-0">
+                    <div>
+                         <h1
+                              class="text-xl lg:text-3xl text-white font-semibold font-['Playfair_Display'] capitalize mb-3">
+                              kimchi
+                              sauce
+                              korean
+                              barbeque</h1>
+                    </div>
+
+                    <div class="w-full flex items-center justify-between">
+                         <div>
+                              <ion-icon name="star" class="text-yellow-500 text-base"></ion-icon>
+                              <span class="text-gray-300 font-medium text-base">5.0</span>
+                         </div>
+                         <div>
+                              <h3 class="text-gray-200 font-medium capitalize text-base">rp 25.000</h3>
+                         </div>
+                    </div>
+
+                    <div class="w-full h-auto p-5 bg-gray-600 mt-8 rounded">
+                         <h4 class="text-white text-base font-semibold font-['Open_Sans'] mb-3">Description :</h4>
+
+                         <p class="text-gray-300 text-base">
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur tempora alias
+                              necessitatibus
+                              sint.
+                         </p>
+                    </div>
+
+                    <div class="w-full h-auto p-5 bg-gray-600 mt-2 rounded">
+                         <h4 class="text-white text-base font-semibold font-['Open_Sans'] mb-3">Ingredients :</h4>
+
+                         <div class="grid grid-cols-2 gap-3">
+                              <div class="w-full flex items-center gap-3">
+                                   <img src="../../../../src/images/image (1).jpg"
+                                        class="w-11 h-11 object-cover rounded-md">
+                                   <h4 class="text-gray-300 font-medium text-base capitalize">sawi putih</h4>
+                              </div>
+                              <div class="w-full flex items-center gap-3">
+                                   <img src="../../../../src/images/image (2).jpg"
+                                        class="w-11 h-11 object-cover rounded-md">
+                                   <h4 class="text-gray-300 font-medium text-base capitalize">bawang putih</h4>
+                              </div>
+                              <div class="w-full flex items-center gap-3">
+                                   <img src="../../../../src/images/image (3).jpg"
+                                        class="w-11 h-11 object-cover rounded-md">
+                                   <h4 class="text-gray-300 font-medium text-base capitalize">bawang merah</h4>
+                              </div>
+                              <div class="w-full flex items-center gap-3">
+                                   <img src="../../../../src/images/image (4).jpg"
+                                        class="w-11 h-11 object-cover rounded-md">
+                                   <h4 class="text-gray-300 font-medium text-base capitalize">cabai rawit</h4>
+                              </div>
+                              <div class="w-full flex items-center gap-3">
+                                   <img src="../../../../src/images/image (5).jpg"
+                                        class="w-11 h-11 object-cover rounded-md">
+                                   <h4 class="text-gray-300 font-medium text-base capitalize">cabai merah keriting</h4>
+                              </div>
+                              <div class="w-full flex items-center gap-3">
+                                   <img src="../../../../src/images/image (6).jpg"
+                                        class="w-11 h-11 object-cover rounded-md">
+                                   <h4 class="text-gray-300 font-medium text-base capitalize">penyedap rasa</h4>
+                              </div>
+                              <div class="w-full flex items-center gap-3">
+                                   <img src="../../../../src/images/image (7).jpg"
+                                        class="w-11 h-11 object-cover rounded-md">
+                                   <h4 class="text-gray-300 font-medium text-base capitalize">bumbu rahasia</h4>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </main>
+
+     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+     <script src="../../../js/components/loading.js"></script>
+     <script>
+          window.addEventListener("load", () => {
+
+               setInterval(() => {
+
+                    document.body.classList.remove("load");
+                    document.querySelector("load-content").style.display = "none";
+
+               }, 1500);
+
+          })
+     </script>
+</body>
+
+</html>
